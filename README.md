@@ -1,105 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sukhi's 3D GitHub Profile</title>
-    <!-- CSS Styling -->
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background: #1e1e1e;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        h1, h3 {
-            position: absolute;
-            width: 100%;
-            text-align: center;
-            z-index: 1;
-        }
-        h1 {
-            top: 10%;
-            font-size: 3em;
-            color: #00ffc3;
-        }
-        h3 {
-            top: 20%;
-            color: #ff00c8;
-        }
-        .profile-section {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            margin-top: 30%;
-        }
-        .profile-section img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        .profile-section h2 {
-            color: #00ffc3;
-        }
-        .profile-section p {
-            color: #ff00c8;
-        }
-    </style>
-</head>
-<body>
-    <!-- Profile Heading -->
-    <h1>Sukhi</h1>
-    <h3>A Passionate Frontend Developer</h3>
+![logo](https://github.com/UJJWALJAAT/UJJWALJAAT/blob/main/1672731712565.png))
+<h1 align="center">Hi 👋, I'm Sukhi</h1>
+<h3 align="center">A passionate frontend developer from India</h3>
+<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
-    <!-- Profile Section with Image and Details -->
-    <div class="profile-section">
-        <img src="https://github.com/UJJWALJAAT/UJJWALJAAT/blob/main/1672731712565.png" alt="Sukhi's Logo">
-        <h2>Connect with me:</h2>
-        <p>Email: example@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" style="color: #00ffc3;">Profile Link</a></p>
-    </div>
 
-    <!-- Canvas for 3D Animation -->
-    <canvas id="bg"></canvas>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ujjwaljaat&label=Profile%20views&color=0e75b6&style=flat" alt="ujjwaljaat" /> </p>
 
-    <!-- Three.js Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script>
-        // Scene, Camera, Renderer
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        const renderer = new THREE.WebGLRenderer({ canvas: document.querySelector('#bg'), antialias: true });
-        renderer.setPixelRatio(window.devicePixelRatio);
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        camera.position.setZ(30);
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ujjwaljaat" alt="ujjwaljaat" /></a> </p>
 
-        // 3D Cube
-        const geometry = new THREE.BoxGeometry(10, 10, 10);
-        const material = new THREE.MeshStandardMaterial({ color: 0x00ff83, wireframe: true });
-        const cube = new THREE.Mesh(geometry, material);
-        scene.add(cube);
+- 🔭 I’m currently working on **Facebook related Full Automation and decoded all type encryption and reverse code**
 
-        // Lighting
-        const pointLight = new THREE.PointLight(0xffffff);
-        pointLight.position.set(20, 20, 20);
-        scene.add(pointLight);
+- 🌱 I’m currently learning **Data base MySQL and mongo DB**
 
-        // Animation Loop
-        function animate() {
-            requestAnimationFrame(animate);
-            cube.rotation.x += 0.01;
-            cube.rotation.y += 0.01;
-            renderer.render(scene, camera);
-        }
-        animate();
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-        // Responsive Design
-        window.addEventListener('resize', () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
-        });
-    </script>
-</body>
-</html>
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://backbonejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/backbonejs/backbonejs-original-wordmark.svg" alt="backbonejs" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/9654066265@kotak"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="9654066265@kotak" /></a></p><br><br>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ujjwaljaat&show_icons=true&locale=en&layout=compact" alt="ujjwaljaat" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ujjwaljaat&show_icons=true&locale=en" alt="ujjwaljaat" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ujjwaljaat&" alt="ujjwaljaat" /></p>
